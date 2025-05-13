@@ -22,8 +22,11 @@
 
 <script>
     function openLink() {
-        window.MyBeeline.close();     
+        window.MyBeeline.close();
     }
+
+    // Вызов метода сразу при загрузке
+    window.onload = openLink;
 </script>
 </body>
 </html>
