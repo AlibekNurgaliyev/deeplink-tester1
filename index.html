@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Витрина</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        button {
+            font-size: 18px;
+            padding: 12px 24px;
+        }
+    </style>
+</head>
+<body>
+<button onclick="openLink()">Открыть витрину</button>
+
+<script>
+    function openLink() {
+        window.MyBeeline.close();     
+    }
+</script>
+</body>
+</html>
